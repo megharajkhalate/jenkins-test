@@ -5,7 +5,7 @@ pipeline {
             AWS_DEFAULT_REGION="us-west-1"
             CLUSTER_NAME="default"
             SERVICE_NAME="python-container-service"
-            TASK_DEFINITION_NAME="python-task-defination"
+            TASK_DEFINITION_NAME="first-run-task-definition"
             DESIRED_COUNT="1"
             IMAGE_REPO_NAME="demo"
             IMAGE_TAG="${env.BUILD_ID}"
