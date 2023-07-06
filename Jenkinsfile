@@ -4,7 +4,7 @@ pipeline {
             AWS_ACCOUNT_ID="912647749713"
             AWS_DEFAULT_REGION="us-west-1"
             CLUSTER_NAME="default"
-            SERVICE_NAME="python-container-service"
+            SERVICE_NAME="python-service"
             TASK_DEFINITION_NAME="first-run-task-definition"
             DESIRED_COUNT="1"
             IMAGE_REPO_NAME="demo"
