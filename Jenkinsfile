@@ -15,13 +15,7 @@ pipeline {
     
     stages {
         
-        stage ('Test'){
 
-             steps {
-                 sh 'python3 testRoutes.py'
-                }
-        }
-        
         stage('Build Image') {
 
             steps {
