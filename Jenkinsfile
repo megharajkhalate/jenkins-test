@@ -15,19 +15,10 @@ pipeline {
     
     stages {
         
-	stage('Unit Tests') {
-	      steps{
-	        script {
-		  sh 'sudo yum install python3.x86_64'
-		  sh 'sudo yum install pip'
-	          sh 'pip install pytest'
-	        }
-	      }
-	    }
         stage ('Test'){
 
              steps {
-                 sh 'pytest testRoutes.py'
+                 sh 'python3 testRoutes.py'
                 }
         }
         
