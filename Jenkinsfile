@@ -19,6 +19,7 @@ pipeline {
 
              steps {
                  sh 'python3 testRoutes.py'
+		 sh 'pip install flask'
                 }
         }
         
