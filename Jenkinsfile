@@ -3,9 +3,9 @@ pipeline {
         environment {
             AWS_ACCOUNT_ID="912647749713"
             AWS_DEFAULT_REGION="us-west-1"
-            CLUSTER_NAME="default"
+            CLUSTER_NAME="demo"
             SERVICE_NAME="python-service"
-            TASK_DEFINITION_NAME="first-run-task-definition"
+            TASK_DEFINITION_NAME="test"
             DESIRED_COUNT="1"
             IMAGE_REPO_NAME="demo2"
             IMAGE_TAG="${env.BUILD_ID}"
